@@ -37,7 +37,7 @@ public class AppTest {
     public void testDiv() {
         int a = 50;
         int b = 10;
-        int div = a * b;
+        int div = a / b;
         assertEquals(div, 5, "Div should be 5");
     }
 }
