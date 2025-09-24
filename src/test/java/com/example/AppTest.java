@@ -29,7 +29,15 @@ public class AppTest {
     public void testMulti() {
         int a = 5;
         int b = 10;
-        int Multiplied = a * b;
-        assertEquals(Multiplied, 50, "Sum should be 50");
+        int multiplied = a * b;
+        assertEquals(multiplied, 50, "Sum should be 50");
+    }
+    @Test
+    @Description("Simple test to check divide")
+    public void testDiv() {
+        int a = 50;
+        int b = 10;
+        int div = a * b;
+        assertEquals(div, 5, "Div should be 5");
     }
 }
